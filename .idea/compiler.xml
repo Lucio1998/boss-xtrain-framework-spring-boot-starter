@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boss-xtrain-common-api-logging" />
+        <module name="boss-xtrain-common-exception-logging" />
         <module name="boss-xtrain-common-utils" />
         <module name="boss-xtrain-core-annotation" />
         <module name="boss-xtrain-core-api-version" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="boss-xtrain-common" target="1.8" />
       <module name="boss-xtrain-common-api-logging" target="1.8" />
+      <module name="boss-xtrain-common-exception-logging" target="1.8" />
       <module name="boss-xtrain-common-utils" target="1.8" />
       <module name="boss-xtrain-core" target="1.8" />
       <module name="boss-xtrain-core-annotation" target="1.8" />

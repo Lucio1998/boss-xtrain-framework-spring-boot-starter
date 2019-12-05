@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-api-logging/boss-xtrain-common-api-logging.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-api-logging/boss-xtrain-common-api-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-exception-logging/boss-xtrain-common-exception-logging.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-exception-logging/boss-xtrain-common-exception-logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-utils/boss-xtrain-common-utils.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-utils/boss-xtrain-common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-annotation/boss-xtrain-core-annotation.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-annotation/boss-xtrain-core-annotation.iml" />

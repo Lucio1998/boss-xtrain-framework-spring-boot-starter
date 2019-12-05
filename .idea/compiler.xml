@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boss-xtrain-common-api-logging" />
+        <module name="boss-xtrain-common-utils" />
+        <module name="boss-xtrain-core-annotation" />
+        <module name="boss-xtrain-core-api-version" />
+        <module name="boss-xtrain-core-data-convention" />
+        <module name="boss-xtrain-core-db-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boss-xtrain-common" target="1.8" />
+      <module name="boss-xtrain-common-api-logging" target="1.8" />
+      <module name="boss-xtrain-common-utils" target="1.8" />
+      <module name="boss-xtrain-core" target="1.8" />
+      <module name="boss-xtrain-core-annotation" target="1.8" />
+      <module name="boss-xtrain-core-api-version" target="1.8" />
+      <module name="boss-xtrain-core-data-convention" target="1.8" />
+      <module name="boss-xtrain-core-db-api" target="1.8" />
+      <module name="boss-xtrain-framework-spring-boot-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

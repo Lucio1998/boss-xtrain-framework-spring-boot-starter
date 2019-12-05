@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-api-logging/boss-xtrain-common-api-logging.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-api-logging/boss-xtrain-common-api-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-utils/boss-xtrain-common-utils.iml" filepath="$PROJECT_DIR$/boss-xtrain-common/boss-xtrain-common-utils/boss-xtrain-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-annotation/boss-xtrain-core-annotation.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-annotation/boss-xtrain-core-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-api-version/boss-xtrain-core-api-version.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-api-version/boss-xtrain-core-api-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-data-convention/boss-xtrain-core-data-convention.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-data-convention/boss-xtrain-core-data-convention.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-db-api/boss-xtrain-core-db-api.iml" filepath="$PROJECT_DIR$/boss-xtrain-core/boss-xtrain-core-db-api/boss-xtrain-core-db-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boss-xtrain-framework-spring-boot-starter.iml" filepath="$PROJECT_DIR$/boss-xtrain-framework-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>

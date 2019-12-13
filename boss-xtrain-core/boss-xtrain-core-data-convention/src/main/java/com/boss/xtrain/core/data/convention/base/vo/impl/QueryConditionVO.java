@@ -10,4 +10,5 @@ import com.boss.xtrain.core.data.convention.base.vo.BaseVO;
  **/
 
 public class QueryConditionVO extends BaseVO {
+
 }

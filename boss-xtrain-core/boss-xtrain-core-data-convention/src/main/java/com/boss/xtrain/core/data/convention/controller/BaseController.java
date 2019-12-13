@@ -13,15 +13,17 @@ import com.boss.xtrain.core.data.convention.message.CommonResponse;
 import com.boss.xtrain.core.data.convention.util.AppUtils;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class BaseController {
+
 
     /**
      * @description: 分页操作，设置分页的一些信息
      * @params:[pageIndex, pageSize]
      * @return void
      */
-    protected void doBeforePagination(int pageIndex,int pageSize) {
+    protected static void doBeforePagination(int pageIndex,int pageSize) {
         Page page = PageHelper.startPage(pageIndex, pageSize);
     }
 
@@ -30,7 +32,7 @@ public abstract class BaseController {
      * @params:[object]
      * @return com.boss.xtrain.core.data.convention.message.CommonResponse
      */
-    protected CommonResponse buildCommonResponse(Object object){
+    protected static CommonResponse buildCommonResponse(Object object){
         CommonResponse<Object> commonResponse=new CommonResponse<Object>();
         //调用工具类设置版本等信息
         AppUtils.setResponseExtendInfo(commonResponse);
@@ -43,7 +45,7 @@ public abstract class BaseController {
      * @params:[object]
      * @return com.boss.xtrain.core.data.convention.message.CommonRequest
      */
-    protected CommonRequest buildCommonRequest(Object object){
+    protected static CommonRequest buildCommonRequest(Object object){
         CommonRequest<Object> commonRequest=new CommonRequest<>();
         //调用工具类设置版本等信息
         AppUtils.setRequestExtendInfo(commonRequest);

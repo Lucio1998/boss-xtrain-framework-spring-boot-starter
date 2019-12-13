@@ -13,7 +13,6 @@ import java.util.List;
 
 public class DataListVO<T> extends BaseVO {
 
-
     /**
      * 存放list对象
      */

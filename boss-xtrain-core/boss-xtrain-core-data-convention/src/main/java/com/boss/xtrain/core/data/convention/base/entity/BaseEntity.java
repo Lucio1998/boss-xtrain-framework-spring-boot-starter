@@ -12,13 +12,47 @@ import java.io.Serializable;
  * @create: 2019-12-05 21:48
  **/
 public class BaseEntity implements Serializable{
-    Long id;
-    Byte status;
-    Long created_by;
-    Date created_time;
-    Long updated_by;
-    Date updated_time;
-    Long version;
+
+    /**
+     * id
+     */
+    private Long id;
+    /**
+     * 状态位
+     */
+    private Byte status;
+    /**
+     * 创建人
+     */
+    private Long created_by;
+    /**
+     * 创建时间
+     */
+    private Date created_time;
+    /**
+     * 修改人
+     */
+    private Long updated_by;
+    /**
+     * 更新时间
+     */
+    private Date updated_time;
+    /**
+     * 版本
+     */
+    private Long version;
+    /**
+     * 备注
+     */
+    private String remark;
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
 
     public  Long getId(){
         return id;

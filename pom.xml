@@ -26,7 +26,7 @@
         <spring.boot.version>2.0.6.RELEASE</spring.boot.version>
         <tk.mybatis.version>4.1.5</tk.mybatis.version>
         <mysql.version>5.1.8</mysql.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <druid.version>1.1.10</druid.version>
         <mybatis.version>3.4.0</mybatis.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
